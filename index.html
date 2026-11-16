@@ -377,6 +377,26 @@
       margin-top: 2px;
     }
 
+    
+    .hosts-box-prominent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1.5px solid #fed7aa;
+      border-radius: var(--radius-md);
+      padding: 11px 18px;
+      margin: 10px 0 14px;
+      font-size: 14.5px;
+      color: #1e293b;
+      box-shadow: 0 2px 8px rgba(245, 158, 11, 0.12);
+    }
+    .hosts-box-prominent .host-item strong {
+      color: #b45309;
+      font-weight: 800;
+      margin-left: 2px;
+    }
+
     .hero-meta {
       display: flex;
       flex-direction: column;
@@ -1207,43 +1227,12 @@
       <div class="badge badge-primary">歡慶校慶 ‧ 活力復興</div>
       <h1 class="event-title">115年度校慶運動會</h1>
       <div class="event-slogan">✨ 活力滿復興 競技樣樣行 ✨</div>
-
-      <!-- Hero Security Certification Showcase Card -->
-      <div class="hero-security-showcase">
-        <div class="sec-showcase-header">
-          <div class="sec-shield-icon">🛡️</div>
-          <div>
-            <div class="sec-showcase-title">資安防護合規與官方信賴認證</div>
-            <div class="sec-showcase-sub">通過國際資安標頭最高評級 A+ ‧ 官方金融防偽認證</div>
-          </div>
-          <button data-action="open-sec-modal" class="btn-sec-verify">
-            <span>檢驗證書</span> ➔
-          </button>
-        </div>
-        <div class="sec-badges-grid">
-          <div class="sec-grid-card card-aplus" data-action="open-sec-modal">
-            <div class="card-grade">A+</div>
-            <div class="card-name">SecurityHeaders</div>
-            <div class="card-desc">最高安全等級</div>
-          </div>
-          <div class="sec-grid-card card-ssl" data-action="open-sec-modal">
-            <div class="card-icon">🔒</div>
-            <div class="card-name">TLS 256-Bit</div>
-            <div class="card-desc">端到端加密</div>
-          </div>
-          <div class="sec-grid-card card-owasp" data-action="open-sec-modal">
-            <div class="card-icon">🛡️</div>
-            <div class="card-name">OWASP Top 10</div>
-            <div class="card-desc">防禦合規規範</div>
-          </div>
-          <div class="sec-grid-card card-seal" data-action="open-sec-modal">
-            <div class="card-icon">🏛️</div>
-            <div class="card-name">家長會關防</div>
-            <div class="card-desc">正本實體核驗</div>
-          </div>
-        </div>
+      <!-- Prominent Hosts Invitation Box (Moved here as indicated by red arrow) -->
+      <div class="hosts-box-prominent">
+        <div class="host-item">校長 <strong>李嘉齡</strong></div>
+        <div class="host-item">家長會長 <strong>姚建中</strong></div>
+        <span class="badge badge-gold" style="font-size: 12px; padding: 4px 10px;">敬邀</span>
       </div>
-
       <!-- Live Countdown -->
       <div class="countdown-box">
         <div class="countdown-title">
@@ -1289,11 +1278,6 @@
           <div class="meta-text">
             <strong>報到地點：</strong><span style="color: #dc2626; font-weight:800;">司令臺正右側</span>【家長會簽到處 / 運動會捐助處】
           </div>
-        </div>
-        <div class="hosts-box">
-          <span>校長 <strong>李嘉齡</strong></span>
-          <span>家長會長 <strong>姚建中</strong></span>
-          <span class="badge badge-gold">敬邀</span>
         </div>
       </div>
 
