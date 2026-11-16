@@ -137,7 +137,7 @@
     g_5: '<strong style="color: #ea580c;">五年級休息區：</strong><br>位於運動場<strong>東北角外側</strong>，緊鄰四年級休息區與排球場方向。',
     g_6: '<strong style="color: #ea580c;">六年級休息區：</strong><br>位於運動場<strong>西北角最外側</strong>，三年級休息區左方，為最高年級大哥哥大姊姊的應援加油特區。',
     fun: '<strong style="color: #16a34a;">趣味競賽場地 (中央大草坪)：</strong><br>位於整個田徑跑道中央大草坪，是各年級學童進行趣味競賽、趣味闖關與歡樂同樂的主場地。',
-    gate: '<strong style="color: #059669;">福星門 (來賓主要入口)：</strong><br>位於操場南側（下方入口），家長由福星門進入後，直走穿越跑道旁即直達司令臺旁家長會簽到處。'
+    gate: '<strong style="color: #059669;">學校大門到福星門(西棟大樓穿堂)：</strong><br>請長官、貴賓與家長由學校大門進入，穿過西棟大樓穿堂至福星門進入操場運動場，穿過跑道直行即可抵達司令臺正右側【家長會簽到處 / 運動會捐助處】。'
   };
 
   function showAreaInfo(key, btn) {
