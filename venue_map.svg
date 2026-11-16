@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 620 400" width="100%" height="100%" class="venue-svg">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffedd5" />
+      <stop offset="100%" stop-color="#fed7aa" />
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+    <linearGradient id="stageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="vipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background / School Ground -->
+  <rect x="-50" y="-10" width="620" height="400" fill="#f8fafc" rx="16" />
+
+  <!-- Surrounding Courts (Top Right) -->
+  <g id="courts" class="map-group">
+    <rect x="288" y="5" width="80" height="55" rx="5" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="328" y="32" font-size="11" font-weight="bold" fill="#0369a1" text-anchor="middle">籃球場</text>
+
+    <rect x="375" y="5" width="55" height="55" rx="5" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="402" y="32" font-size="11" font-weight="bold" fill="#0369a1" text-anchor="middle">排球場</text>
+
+    <rect x="437" y="5" width="75" height="55" rx="5" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="474" y="32" font-size="11" font-weight="bold" fill="#0369a1" text-anchor="middle">滾球場</text>
+  </g>
+
+  <!-- Track & Infield Grass -->
+  <!-- Outer running track bounds -->
+  <rect x="110" y="25" width="260" height="235" rx="117.5" fill="#ffedd5" stroke="#fb923c" stroke-width="3" />
+  <!-- Infield Grass -->
+  <rect x="145" y="60" width="190" height="165" rx="82.5" fill="url(#grassGrad)" stroke="#86efac" stroke-width="2" />
+
+  <!-- Center Fun Competition Field -->
+  <rect x="175" y="85" width="130" height="95" rx="8" fill="#ffffff" stroke="#22c55e" stroke-width="2" stroke-dasharray="4 2" />
+  <text x="240" y="130" font-size="13" font-weight="bold" fill="#15803d" text-anchor="middle">趣味競賽場地</text>
+  <text x="240" y="148" font-size="10" fill="#16a34a" text-anchor="middle">(中央大草坪)</text>
+
+  <!-- Track Lane Marks A, B, C, D, E, F -->
+  <!-- Track A -->
+  <circle cx="140" cy="85" r="12" fill="#f97316" />
+  <text x="140" y="89" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">A</text>
+  <!-- Track BA -->
+  <circle cx="140" cy="190" r="12" fill="#ea580c" />
+  <text x="140" y="194" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle">BA</text>
+  <!-- Track C -->
+  <circle cx="335" cy="190" r="12" fill="#f97316" />
+  <text x="335" y="194" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">C</text>
+  <!-- Track D -->
+  <circle cx="335" cy="85" r="12" fill="#ea580c" />
+  <text x="335" y="89" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">D</text>
+  <!-- Track E -->
+  <circle cx="475" cy="85" r="12" fill="#c2410c" />
+  <text x="475" y="89" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">E</text>
+  <!-- Track F -->
+  <circle cx="215" cy="35" r="12" fill="#c2410c" />
+  <text x="215" y="39" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle">F</text>
+
+  <!-- Top Side Areas: Stage, Rest Areas, and VIP/Donation Station -->
+  <!-- 6th Grade -->
+  <rect x="40" y="5" width="48" height="65" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="64" y="32" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">六年級</text>
+  <text x="64" y="47" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- 3rd Grade -->
+  <rect x="95" y="5" width="48" height="65" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="119" y="32" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">三年級</text>
+  <text x="119" y="47" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- Sound/Audio -->
+  <rect x="150" y="5" width="34" height="65" rx="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5" />
+  <text x="167" y="32" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">工作</text>
+  <text x="167" y="47" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">音響</text>
+
+  <!-- Main Stage (司令臺) -->
+  <rect x="192" y="3" width="76" height="52" rx="6" fill="url(#stageGrad)" stroke="#1e40af" stroke-width="2" filter="url(#shadow)" />
+  <text x="230" y="28" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">司令臺</text>
+  <text x="230" y="44" font-size="9" fill="#bfdbfe" text-anchor="middle">大會主席臺</text>
+
+  <!-- KEY FOCUS: VIP / Donation / Parents Station (運動會捐助處 / 貴賓簽到處 / 家長會簽處) -->
+  <g id="vip-station" filter="url(#shadow)">
+    <!-- Animated pulse ring -->
+    <rect x="274" y="2" width="76" height="74" rx="8" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="6 3">
+      <animate attributeName="stroke-dashoffset" values="0;18" dur="1.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="276" y="4" width="72" height="70" rx="7" fill="url(#vipGrad)" stroke="#991b1b" stroke-width="1.5" />
+    <!-- Star badge -->
+    <circle cx="312" cy="18" r="8" fill="#fef08a" />
+    <text x="312" y="22" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">★</text>
+    <text x="312" y="36" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle">家長會簽到</text>
+    <text x="312" y="51" font-size="11" font-weight="900" fill="#fef08a" text-anchor="middle">運動會捐助</text>
+    <text x="312" y="65" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">貴賓簽到處</text>
+  </g>
+
+  <!-- 4th Grade -->
+  <rect x="357" y="68" width="48" height="60" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="381" y="94" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">四年級</text>
+  <text x="381" y="109" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- 5th Grade -->
+  <rect x="412" y="68" width="48" height="60" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="436" y="94" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">五年級</text>
+  <text x="436" y="109" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- Sides: Kindergarten, 2nd Grade, 1st Grade -->
+  <!-- Kindergarten (West) -->
+  <rect x="-35" y="100" width="48" height="65" rx="5" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5" />
+  <text x="-11" y="128" font-size="11" font-weight="bold" fill="#9d174d" text-anchor="middle">幼兒園</text>
+  <text x="-11" y="144" font-size="10" fill="#be185d" text-anchor="middle">休息區</text>
+
+  <!-- 2nd Grade (East) -->
+  <rect x="465" y="135" width="48" height="50" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="489" y="157" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">二年級</text>
+  <text x="489" y="171" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- 1st Grade (East Lower) -->
+  <rect x="445" y="200" width="48" height="50" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="469" y="222" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">一年級</text>
+  <text x="469" y="236" font-size="10" fill="#b45309" text-anchor="middle">休息區</text>
+
+  <!-- South Side Buildings & Gate -->
+  <!-- PE Office -->
+  <rect x="75" y="295" width="75" height="45" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5" />
+  <text x="112" y="322" font-size="11" font-weight="bold" fill="#334155" text-anchor="middle">體育室</text>
+
+  <!-- International Store -->
+  <rect x="158" y="295" width="80" height="45" rx="5" fill="#fef9c3" stroke="#eab308" stroke-width="1.5" />
+  <text x="198" y="322" font-size="11" font-weight="bold" fill="#854d0e" text-anchor="middle">國際柑仔店</text>
+
+  <!-- Torch / Flame (聖火臺) -->
+  <g transform="translate(242, 275)">
+    <polygon points="12,0 0,16 24,16" fill="#f97316" />
+    <circle cx="12" cy="6" r="4" fill="#fbbf24" />
+    <rect x="4" y="16" width="16" height="12" rx="2" fill="#78716c" />
+    <text x="12" y="38" font-size="9" font-weight="bold" fill="#ea580c" text-anchor="middle">聖火臺</text>
+  </g>
+
+  <!-- Main Gate: 福星門 (Primary Entrance for Parents & Guests) -->
+  <g id="fuxing-gate" filter="url(#shadow)">
+    <rect x="270" y="285" width="60" height="58" rx="6" fill="#047857" stroke="#065f46" stroke-width="2" />
+    <circle cx="300" cy="302" r="8" fill="#a7f3d0" />
+    <text x="300" y="306" font-size="10" font-weight="bold" fill="#065f46" text-anchor="middle">門</text>
+    <text x="300" y="323" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">福星門</text>
+    <text x="300" y="336" font-size="8" fill="#d1fae5" text-anchor="middle">(來賓入口)</text>
+    <!-- Entry arrow pointing inward -->
+    <path d="M 300 278 L 300 262 M 295 268 L 300 262 L 305 268" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Kitchen -->
+  <rect x="338" y="285" width="70" height="58" rx="5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5" />
+  <text x="373" y="318" font-size="11" font-weight="bold" fill="#334155" text-anchor="middle">學校廚房</text>
+
+  <!-- Route Guidance Dotted Line: From 福星門 to 家長會簽到處 -->
+  <path d="M 300 260 Q 300 170 312 85" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="5 3" />
+  <circle cx="312" cy="85" r="4" fill="#ef4444" />
+
+  <!-- Route Label -->
+  <rect x="315" y="160" width="85" height="24" rx="4" fill="#ffffff" stroke="#ef4444" stroke-width="1" opacity="0.9" />
+  <text x="357" y="176" font-size="9" font-weight="bold" fill="#dc2626" text-anchor="middle">報到引導路線 ➔</text>
+</svg>
