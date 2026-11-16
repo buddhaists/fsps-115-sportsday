@@ -168,8 +168,7 @@
       "STATUS:CONFIRMED",
       "END:VEVENT",
       "END:VCALENDAR"
-    ].join("
-");
+    ].join("\r\n");
 
     const blob = new Blob([icsData], { type: "text/calendar;charset=utf-8" });
     const link = document.createElement("a");
