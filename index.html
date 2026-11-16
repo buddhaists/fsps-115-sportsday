@@ -100,6 +100,158 @@
       border-bottom: 1px solid #fed7aa;
     }
 
+    
+    /* Top Security Badges Bar */
+    .top-security-badge-bar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: var(--radius-full);
+      padding: 5px 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(16, 185, 129, 0.1);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .top-security-badge-bar:hover {
+      background: #dcfce7;
+      transform: translateY(-1px);
+    }
+    .sec-badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #065f46;
+    }
+    .sec-badge-link {
+      font-size: 11px;
+      color: #059669;
+      font-weight: 800;
+      margin-left: 2px;
+    }
+
+    /* Hero Security Showcase Card */
+    .hero-security-showcase {
+      background: #ffffff;
+      border: 1.5px solid #10b981;
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin: 12px 0 16px;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.12);
+      text-align: left;
+    }
+    .sec-showcase-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .sec-shield-icon {
+      width: 32px;
+      height: 32px;
+      background: #ecfdf5;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .sec-showcase-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #065f46;
+      line-height: 1.2;
+    }
+    .sec-showcase-sub {
+      font-size: 10.5px;
+      color: #047857;
+      margin-top: 1px;
+    }
+    .btn-sec-verify {
+      margin-left: auto;
+      background: #10b981;
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      padding: 5px 9px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      flex-shrink: 0;
+      transition: background 0.2s ease;
+    }
+    .btn-sec-verify:hover {
+      background: #059669;
+    }
+    .sec-badges-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
+    .sec-grid-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 6px 2px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .sec-grid-card:hover {
+      transform: translateY(-2px);
+    }
+    .sec-grid-card.card-aplus {
+      background: #f0fdf4;
+      border-color: #bbf7d0;
+    }
+    .sec-grid-card.card-ssl {
+      background: #eff6ff;
+      border-color: #bfdbfe;
+    }
+    .sec-grid-card.card-owasp {
+      background: #fefce8;
+      border-color: #fef08a;
+    }
+    .sec-grid-card.card-seal {
+      background: #fdf2f8;
+      border-color: #fbcfe8;
+    }
+    .card-grade {
+      font-size: 16px;
+      font-weight: 900;
+      color: #16a34a;
+      line-height: 1.1;
+    }
+    .card-icon {
+      font-size: 15px;
+      line-height: 1.1;
+    }
+    .card-name {
+      font-size: 9.5px;
+      font-weight: 800;
+      margin-top: 2px;
+      line-height: 1.15;
+    }
+    .card-aplus .card-name { color: #15803d; }
+    .card-ssl .card-name { color: #1d4ed8; }
+    .card-owasp .card-name { color: #a16207; }
+    .card-seal .card-name { color: #be185d; }
+    .card-desc {
+      font-size: 8.5px;
+      color: #64748b;
+      margin-top: 1px;
+    }
+
     .school-header {
       display: flex;
       align-items: center;
